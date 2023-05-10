@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --purple: #31326f;
+  --blue: #005490;
+  --light-blue: #2d97dd;
+  --light-sky-blue: #96e0ed;
+  --mint-green: #33f0c0;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counter-div{
+  width: 40rem;
+  border: 1px solid var(--black);
+  padding: 1rem;
+  background-color: var(--mint-green);
+  color: var(--black);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.counter-div > * {
+  margin-bottom: 2rem;
+}
+
+.randomNumber{
+  font-size: 4rem;
+  font-weight: bold;
+  border-style: solid;
+  padding: 1px;
+
+}
+hr{
+  margin-top: 5px;
+}
+
+.button button {
+  padding: 1rem;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  color: var(--white);
+  font-weight: 700;
+  border:none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button.generate {
+  background-color: var(--white);
+  color:var(--black);
+}
